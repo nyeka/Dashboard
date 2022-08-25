@@ -1,0 +1,17 @@
+section#app {
+  display: flex;
+  gap: 58px;
+
+  .main-content {
+    padding-top: 50px;
+    width: 70vw;
+  }
+
+  @media screen and (max-width: 768px) {
+    gap: 0;
+    .main-content {
+      width: 100%;
+      padding-top: 0;
+    }
+  }
+}

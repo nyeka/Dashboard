@@ -1,0 +1,65 @@
+@import "../../index.scss";
+
+section#progres {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+
+    img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+  .card {
+    display: flex;
+    width: 337px;
+    justify-content: space-between;
+    align-items: center;
+    height: 126px;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 16px;
+    gap: 8px;
+  }
+  .text-card {
+    font-family: $fontPrimary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+
+    span {
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    h3 {
+      font-weight: 700;
+      font-size: 24px;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 24px;
+
+    .card {
+      width: fit-content;
+    }
+  }
+
+  @media screen and (max-width: 412px) {
+    .container {
+      gap: 24px;
+    }
+    .card {
+      width: 100%;
+    }
+  }
+}

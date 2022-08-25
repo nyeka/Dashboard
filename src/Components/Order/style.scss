@@ -1,0 +1,39 @@
+@import "../../index.scss";
+
+section#order {
+  background-color: #fff;
+  margin-top: 16px;
+  padding: 12px 17px;
+  font-family: $fontPrimary;
+  border-radius: 5px;
+
+  p {
+    font-weight: 700;
+    font-size: 16px;
+    color: #292929;
+  }
+
+  ul {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .container {
+      background: #f2f4ff;
+      display: flex;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      justify-content: space-between;
+      padding: 10px 24px;
+      font-weight: 400;
+      font-size: 16px;
+    }
+
+    .container-2 {
+      display: flex;
+      padding: 10px 24px;
+      justify-content: space-between;
+      gap: 28px;
+    }
+  }
+}
