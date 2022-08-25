@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Dashboard/static/css/main.be2df3a0.css",
-    "main.js": "/Dashboard/static/js/main.52ac13f0.js",
+    "main.js": "/Dashboard/static/js/main.63e639e6.js",
     "static/media/set.svg": "/Dashboard/static/media/set.48018a730fe04838f879a20dbdadde20.svg",
     "static/media/transaksi.svg": "/Dashboard/static/media/transaksi.c5f01ba8d6ae4248cb4312d69bc876d6.svg",
     "static/media/dolar.svg": "/Dashboard/static/media/dolar.2b0a85b225d89a740e4489e400f06167.svg",
@@ -15,10 +15,10 @@
     "static/media/statis.svg": "/Dashboard/static/media/statis.8c7e0e0f86ef6d3e9b564bdd88582741.svg",
     "static/media/arrow-down.svg": "/Dashboard/static/media/arrow-down.e7e6222379bcc96912750c6d213a67cb.svg",
     "main.be2df3a0.css.map": "/Dashboard/static/css/main.be2df3a0.css.map",
-    "main.52ac13f0.js.map": "/Dashboard/static/js/main.52ac13f0.js.map"
+    "main.63e639e6.js.map": "/Dashboard/static/js/main.63e639e6.js.map"
   },
   "entrypoints": [
     "static/css/main.be2df3a0.css",
-    "static/js/main.52ac13f0.js"
+    "static/js/main.63e639e6.js"
   ]
 }
