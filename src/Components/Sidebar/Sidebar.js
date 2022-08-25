@@ -43,18 +43,16 @@ const Sidebar = () => {
         </div>
       </div>
       <div className="bottom-menu">
-        <ul>
-          {menuout.map((item, index) => {
-            return (
-              <NavLink to={item.link} key={index}>
-                <div className="menu">
-                  <img src={item.img} alt="setting" />
-                  <li>{item.title}</li>
-                </div>
-              </NavLink>
-            );
-          })}
-        </ul>
+        {menuout?.map((item, index) => {
+          return (
+            <NavLink to={item.link} key={index}>
+              <div className="menu">
+                <img src={item.img} alt="setting" />
+                <p>{item.title}</p>
+              </div>
+            </NavLink>
+          );
+        })}
       </div>
     </section>
   );

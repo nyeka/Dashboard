@@ -5,6 +5,12 @@ section#app {
   .main-content {
     padding-top: 50px;
     width: 70vw;
+    margin-left: 260px;
+  }
+
+  .sidebar {
+    position: fixed;
+    z-index: 2;
   }
 
   @media screen and (max-width: 768px) {

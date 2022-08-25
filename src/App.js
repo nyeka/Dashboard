@@ -13,7 +13,7 @@ import Message from "./layouts/Message";
 const App = () => {
   return (
     <section id="app">
-      <div>
+      <div className="sidebar">
         <Sidebar />
       </div>
       <div className="main-content">

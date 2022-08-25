@@ -16,8 +16,8 @@ export const data = [
   },
   {
     name: "April",
-    Lost: 95000,
-    Profit: 79008,
+    Lost: 79000,
+    Profit: 95008,
   },
   {
     name: "May",
@@ -36,12 +36,12 @@ export const data = [
   },
   {
     name: "August",
-    Lost: 50000,
-    Profit: 70000,
+    Lost: 65000,
+    Profit: 90000,
   },
   {
     name: "Sept",
-    Lost: 50000,
-    Profit: 70000,
+    Lost: 55000,
+    Profit: 75000,
   },
 ];

@@ -5,9 +5,9 @@ section#sidebar {
   padding: 16px 17px;
   font-family: $fontPrimary;
   display: flex;
-  height: 100%;
   flex-direction: column;
   justify-content: space-between;
+  height: 100vh;
 
   .logo {
     display: flex;
@@ -65,9 +65,12 @@ section#sidebar {
   }
 
   ul {
+    margin-top: 33px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
     a {
       color: #808191;
-      margin-top: 33px;
       border-radius: 12px;
       display: flex;
       flex-direction: row;
@@ -87,11 +90,20 @@ section#sidebar {
   }
 
   .bottom-menu {
-    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
     .menu {
       display: flex;
       gap: 12px;
       width: 185px;
+      padding: 9px;
+
+      p {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        color: #808191;
+      }
     }
   }
 

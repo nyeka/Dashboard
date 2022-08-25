@@ -28,7 +28,7 @@ const Chart = ({ data }) => {
             <span>5% than last month</span>
           </div>
         </div>
-        <div >
+        <div>
           <ResponsiveContainer width="100%" height={300}>
             <BarChart
               width={500}
@@ -50,7 +50,54 @@ const Chart = ({ data }) => {
         </div>
       </div>
       <div className="chart-container">
-        <div>Most Sold Items</div>
+        <h3>Most Sold Items </h3>
+        <div className="sold">
+          <div class="skill_bar">
+            <div class="info">
+              <p>Iphone 13 Pro</p>
+              <p>70%</p>
+            </div>
+            <div class="bar">
+              <span class="iphone"></span>
+            </div>
+          </div>
+          <div class="skill_bar">
+            <div class="info">
+              <p>Apple Watch</p>
+              <p>40%</p>
+            </div>
+            <div class="bar">
+              <span class="apple"></span>
+            </div>
+          </div>
+          <div class="skill_bar">
+            <div class="info">
+              <p>Airpods</p>
+              <p>60%</p>
+            </div>
+            <div class="bar">
+              <span class="airpods"></span>
+            </div>
+          </div>
+          <div class="skill_bar">
+            <div class="info">
+              <p>Machbook Pro</p>
+              <p>80%</p>
+            </div>
+            <div class="bar">
+              <span class="machbok"></span>
+            </div>
+          </div>
+          <div class="skill_bar">
+            <div class="info">
+              <p>Others</p>
+              <p>20%</p>
+            </div>
+            <div class="bar">
+              <span class="other"></span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
