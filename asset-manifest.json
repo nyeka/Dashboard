@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Dashboard/static/css/main.be2df3a0.css",
+    "main.js": "/Dashboard/static/js/main.37607621.js",
+    "static/media/set.svg": "/Dashboard/static/media/set.48018a730fe04838f879a20dbdadde20.svg",
+    "static/media/transaksi.svg": "/Dashboard/static/media/transaksi.c5f01ba8d6ae4248cb4312d69bc876d6.svg",
+    "static/media/dolar.svg": "/Dashboard/static/media/dolar.2b0a85b225d89a740e4489e400f06167.svg",
+    "static/media/product.svg": "/Dashboard/static/media/product.a375fea39d62a000be4493ddf23bf356.svg",
+    "static/media/customer.svg": "/Dashboard/static/media/customer.ac3a07a6f2af31b97f75531a139e0595.svg",
+    "static/media/logout.svg": "/Dashboard/static/media/logout.41b39a731cb35a6803021e5137698834.svg",
+    "static/media/dashbord.svg": "/Dashboard/static/media/dashbord.0aacc28e5f719eb162d4a18d6375ff7b.svg",
+    "static/media/pesan.svg": "/Dashboard/static/media/pesan.a804dce586f60b923d2f26b04ddaa6c5.svg",
+    "static/media/rel.svg": "/Dashboard/static/media/rel.538af2b07d3dd913b38f26e9a8f3a6ed.svg",
+    "index.html": "/Dashboard/index.html",
+    "static/media/statis.svg": "/Dashboard/static/media/statis.8c7e0e0f86ef6d3e9b564bdd88582741.svg",
+    "static/media/arrow-down.svg": "/Dashboard/static/media/arrow-down.e7e6222379bcc96912750c6d213a67cb.svg",
+    "main.be2df3a0.css.map": "/Dashboard/static/css/main.be2df3a0.css.map",
+    "main.37607621.js.map": "/Dashboard/static/js/main.37607621.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be2df3a0.css",
+    "static/js/main.37607621.js"
+  ]
+}
