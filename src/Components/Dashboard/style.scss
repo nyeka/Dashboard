@@ -22,5 +22,9 @@ section#dashboard {
 
   @media screen and (max-width: 768px) {
     padding: 24px;
+
+    .tanggal {
+      width: 60%;
+    }
   }
 }

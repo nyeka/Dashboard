@@ -52,49 +52,49 @@ const Chart = ({ data }) => {
       <div className="chart-container">
         <h3>Most Sold Items </h3>
         <div className="sold">
-          <div class="skill_bar">
-            <div class="info">
+          <div className="skill_bar">
+            <div className="info">
               <p>Iphone 13 Pro</p>
               <p>70%</p>
             </div>
-            <div class="bar">
-              <span class="iphone"></span>
+            <div className="bar">
+              <span className="iphone"></span>
             </div>
           </div>
-          <div class="skill_bar">
-            <div class="info">
+          <div className="skill_bar">
+            <div className="info">
               <p>Apple Watch</p>
               <p>40%</p>
             </div>
-            <div class="bar">
-              <span class="apple"></span>
+            <div className="bar">
+              <span className="apple"></span>
             </div>
           </div>
-          <div class="skill_bar">
-            <div class="info">
+          <div className="skill_bar">
+            <div className="info">
               <p>Airpods</p>
               <p>60%</p>
             </div>
-            <div class="bar">
-              <span class="airpods"></span>
+            <div className="bar">
+              <span className="airpods"></span>
             </div>
           </div>
-          <div class="skill_bar">
-            <div class="info">
+          <div className="skill_bar">
+            <div className="info">
               <p>Machbook Pro</p>
               <p>80%</p>
             </div>
-            <div class="bar">
-              <span class="machbok"></span>
+            <div className="bar">
+              <span className="machbok"></span>
             </div>
           </div>
-          <div class="skill_bar">
-            <div class="info">
+          <div className="skill_bar">
+            <div className="info">
               <p>Others</p>
               <p>20%</p>
             </div>
-            <div class="bar">
-              <span class="other"></span>
+            <div className="bar">
+              <span className="other"></span>
             </div>
           </div>
         </div>
