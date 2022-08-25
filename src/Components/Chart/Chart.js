@@ -8,6 +8,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
+import arrow from "../Images/Arrow.svg";
 
 const Chart = ({ data }) => {
   return (
@@ -22,9 +23,12 @@ const Chart = ({ data }) => {
         </div>
         <div className="text-profit">
           <h3>$50.4K</h3>
-          <span>5% than last month</span>
+          <div className="text-arrow">
+            <img src={arrow} alt="arrow" />
+            <span>5% than last month</span>
+          </div>
         </div>
-        <div className="">
+        <div >
           <ResponsiveContainer width="100%" height={300}>
             <BarChart
               width={500}

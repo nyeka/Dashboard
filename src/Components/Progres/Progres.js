@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.scss";
 import logo from "../Images/logo.png";
+import green from "../Images/green.svg";
+import orange from "../Images/orange.svg";
 
 const Progres = () => {
   return (
@@ -16,11 +18,11 @@ const Progres = () => {
         </div>
         <div className="card">
           <div className="text-card">
-            <span >Todays Revenue</span>
+            <span>Todays Revenue</span>
             <h3>$8.2K</h3>
             <p>Availabale to payout</p>
           </div>
-          <img src={logo} alt="ini progres" />
+          <img src={green} alt="ini progres" />
         </div>
         <div className="card">
           <div className="text-card">
@@ -28,7 +30,7 @@ const Progres = () => {
             <h3>$18.2K</h3>
             <p>Availabale to payout</p>
           </div>
-          <img src={logo} alt="ini progres" />
+          <img src={orange} alt="ini progres" />
         </div>
       </div>
     </section>

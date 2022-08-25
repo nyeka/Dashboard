@@ -1,11 +1,23 @@
+@import "../../index.scss";
+
 section#dashboard {
   display: flex;
   justify-content: space-between;
   margin-bottom: 24px;
+  font-family: $fontPrimary;
 
   .container {
     font-weight: 700;
     font-size: 22px;
+  }
+
+  .tanggal {
+    background-color: #fff;
+    padding: 13px 9px;
+    border-radius: 5px;
+    display: flex;
+    color: #676767;
+    gap: 12px;
   }
 
   @media screen and (max-width: 768px) {
