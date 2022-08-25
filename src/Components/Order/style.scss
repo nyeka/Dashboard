@@ -33,7 +33,13 @@ section#order {
       display: flex;
       padding: 10px 24px;
       justify-content: space-between;
-      gap: 28px;
+      gap: 48px;
+
+      li {
+        &:first-child {
+          width: 60px;
+        }
+      }
     }
   }
 }
